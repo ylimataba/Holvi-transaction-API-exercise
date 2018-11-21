@@ -24,7 +24,7 @@ Minimum requirements
 Complete the following tasks based on existing database models and
 Django Rest Framework:
   1. Implement an API for fetching balance of an account
-     (API endpoint GET /account/uuid/balance/).
+     (API endpoint GET /accounts/uuid/balance/).
   2. Implement an API for fetching transactions on account.
      The main use case for the API is to build the typical transaction
      listing you can see in most mobile banks. Design the API as you
@@ -57,7 +57,7 @@ tasks, do let us know by completing the task!
 Descriptions can be done either in written form or as part of the review
 session for your submission.
 
-Client & features: 
+Client & features:
   1. Implement a web frontend for the APIs. Usage of some Javascript
      framework is a big bonus for this task.
   2. Implement console based client for the APIs.

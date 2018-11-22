@@ -1,0 +1,490 @@
+[
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 9,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 9,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 9,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 9,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 10,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 10,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 10,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 10,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 11,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 11,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 11,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 11,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 12,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 12,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 12,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 12,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 13,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 13,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 13,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 13,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 14,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 14,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 14,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 14,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+      "name": "Can add account",
+      "content_type": 15,
+      "codename": "add_account"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+      "name": "Can change account",
+      "content_type": 15,
+      "codename": "change_account"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+      "name": "Can delete account",
+      "content_type": 15,
+      "codename": "delete_account"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+      "name": "Can view account",
+      "content_type": 15,
+      "codename": "view_account"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+      "name": "Can add transaction",
+      "content_type": 16,
+      "codename": "add_transaction"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+      "name": "Can change transaction",
+      "content_type": 16,
+      "codename": "change_transaction"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+      "name": "Can delete transaction",
+      "content_type": 16,
+      "codename": "delete_transaction"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+      "name": "Can view transaction",
+      "content_type": 16,
+      "codename": "view_transaction"
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+      "name": "Operations personel",
+      "permissions": [
+        45,
+        46,
+        48,
+        57,
+        58,
+        60,
+        61,
+        62,
+        64
+      ]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$PS4Xn7TX1Edo$MOJTp5FsfRz9j2TsgA32dGK8QaZT2LqymmeWFESq1M4=",
+      "last_login": "2018-11-22T08:57:53.122Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@holvi.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2018-11-22T08:57:07.198Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$1rvsXoUB4W1r$Bk9fRMEdF72lOY/3wd7f3d3YwH2iq6RUHoQm6EtZPgg=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "operation1",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2018-11-22T09:06:02Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$rZzQfNBvhKQj$gWghQfJga5qLecD+fMjVEqtpla6nboOoIKoManj6cEU=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "operation2",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2018-11-22T09:06:49Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$sPXYaPJhlX6o$plUOJY428eiMzAQH7CKdZ5vD9b91MulF+lK9shxFsT0=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "customer1",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2018-11-22T09:08:03.029Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$8JtkGLbciZCK$I0Deel9dkxT9cEhpcPLnrYvlwDQJArKjkDdm7jz3lFs=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "customer2",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2018-11-22T09:08:24Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "fintech.account",
+    "pk": "4487ce5c-e4f6-440f-9bd4-01be1c504bff",
+    "fields": {
+      "name": "Account2",
+      "balance": "2000.00",
+      "user": 5
+    }
+  },
+  {
+    "model": "fintech.account",
+    "pk": "7e6b5aa1-495e-4a89-ac88-22638ad03570",
+    "fields": {
+      "name": "Account1",
+      "balance": "10000.00",
+      "user": 6
+    }
+  },
+  {
+    "model": "fintech.account",
+    "pk": "a605989f-a897-43b7-81aa-93e124d6d99b",
+    "fields": {
+      "name": "Account2",
+      "balance": "0.00",
+      "user": 6
+    }
+  },
+  {
+    "model": "fintech.account",
+    "pk": "e2363ff3-0642-4061-a4b3-9b90c4ab8df0",
+    "fields": {
+      "name": "Account1",
+      "balance": "1000.00",
+      "user": 5
+    }
+  },
+  {
+    "model": "fintech.transaction",
+    "pk": "77f82299-da61-4d7d-88a8-9d1f603543f5",
+    "fields": {
+      "account": "e2363ff3-0642-4061-a4b3-9b90c4ab8df0",
+      "transaction_date": "2018-11-22",
+      "amount": "10.00",
+      "description": "",
+      "active": true,
+      "create_time": "2018-11-22T09:13:17.784Z",
+      "update_time": "2018-11-22T09:13:17.785Z"
+    }
+  },
+  {
+    "model": "fintech.transaction",
+    "pk": "d3137d14-3849-478c-8a6d-d66966bca4a8",
+    "fields": {
+      "account": "7e6b5aa1-495e-4a89-ac88-22638ad03570",
+      "transaction_date": "2018-11-22",
+      "amount": "50.00",
+      "description": "",
+      "active": false,
+      "create_time": "2018-11-22T09:13:55.106Z",
+      "update_time": "2018-11-22T09:13:55.106Z"
+    }
+  },
+  {
+    "model": "fintech.transaction",
+    "pk": "da4402f9-c987-4046-8076-783e7920e1f9",
+    "fields": {
+      "account": "4487ce5c-e4f6-440f-9bd4-01be1c504bff",
+      "transaction_date": "2018-11-22",
+      "amount": "-100.00",
+      "description": "",
+      "active": true,
+      "create_time": "2018-11-22T09:13:36.217Z",
+      "update_time": "2018-11-22T09:13:36.217Z"
+    }
+  },
+  {
+    "model": "fintech.transaction",
+    "pk": "f9dbaf1b-3373-499e-a482-4882df7a8f10",
+    "fields": {
+      "account": "a605989f-a897-43b7-81aa-93e124d6d99b",
+      "transaction_date": "2018-11-22",
+      "amount": "-70.00",
+      "description": "",
+      "active": true,
+      "create_time": "2018-11-22T09:14:29.512Z",
+      "update_time": "2018-11-22T09:14:29.512Z"
+    }
+  }
+]

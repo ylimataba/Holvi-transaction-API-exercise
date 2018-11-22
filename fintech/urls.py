@@ -4,7 +4,7 @@ from rest_framework import routers
 from . import views
 
 router = routers.DefaultRouter()
-router.register(r'accounts/(?P<pk>.+)/transactions', views.TransactionList)
+router.register(r'transactions', views.TransactionViewSet)
 
 
 urlpatterns = [

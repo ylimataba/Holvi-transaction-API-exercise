@@ -52,10 +52,12 @@ Body for the POST request is
 }
 ```
 There are 3 types of users:
-* One admin user. Username is *admin*
-* Two operation personnel users *operation1* and *operation2*
-* Two basic users *customer1* and *customer2*
-All passwords are *{username}holvi2018*
+* One admin user. Username is **admin**
+* Two operation personnel users **operation1** and **operation2**
+* Two basic users **customer1** and **customer2**
+
+All passwords are the same form:
+**{username}holvi2018**
 
 Admin and operation personnel users can login to /admin/ pages.
 Admin has obviously admin rights but the operation personnel have rights to
@@ -63,11 +65,11 @@ add, change and list users, accounts and transactions.
 
 There are 4 accounts, two for each customer:
 * Customer1
-  - Account1 uuid: *e2363ff3-0642-4061-a4b3-9b90c4ab8df0*
-  - Account2 uuid: *4487ce5c-e4f6-440f-9bd4-01be1c504bff*
+  - Account1 uuid: **e2363ff3-0642-4061-a4b3-9b90c4ab8df0**
+  - Account2 uuid: **4487ce5c-e4f6-440f-9bd4-01be1c504bff**
 * Customer2
-  - Account1 uuid: *7e6b5aa1-495e-4a89-ac88-22638ad03570*
-  - Account2 uuid: *a605989f-a897-43b7-81aa-93e124d6d99b*
+  - Account1 uuid: **7e6b5aa1-495e-4a89-ac88-22638ad03570**
+  - Account2 uuid: **a605989f-a897-43b7-81aa-93e124d6d99b**
 
 
 Exercise instructions

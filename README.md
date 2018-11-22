@@ -1,6 +1,71 @@
 Holvi transaction API exercise
 ==============================
 
+What's implemented?
+-------------------
+I implemented the minimum requirements plus operations personnel access to the
+system allowing the operation personnel to find and view details of users,
+accounts and transactions, and to do corrections to the data.
+
+How set up?
+-----------
+You'll need install Python 3.6.x if you don't already have it.
+I suggest to use virtual environment. More information can be found from
+https://virtualenv.pypa.io/en/latest/
+When you have activated your virtual environment install the requirements with
+`pip install -r requirements.txt`
+
+After that load some users, accounts and transactions to the system with
+`./manage.py loaddata db.json`
+
+How to run?
+-----------
+You can start the server with
+`./manage.py runserver`
+
+How to test?
+------------
+You can run the tests with
+`./manage.py tests`
+
+How to use?
+-----------
+There are three API endpoints
+1. GET /accounts/{uuid}/balance/
+2. GET /transactions/?account={uuid}
+3. POST /transactions/
+Body for the POST request is
+```
+{
+    "uuid": uuid,
+    "account": uuid,
+    "transaction_date": Date,
+    "amount": float,
+    "description": string,
+    "active": boolean
+}
+```
+There are 3 types of users:
+* One admin user with username admin)
+* Two operation personnel users operation1 and operation2
+* Two basic users customer1 and customer2
+All passwords are {username}holvi2018
+
+Admin and operation personnel users can login to /admin/ pages.
+Admin has obviously admin rights but the operation personnel have rights to
+add, change and list users, accounts and transactions.
+
+There are 4 accounts, two for each customer:
+* Customer1
+  - Account1 uuid: e2363ff3-0642-4061-a4b3-9b90c4ab8df0
+  - Account2 uuid: 4487ce5c-e4f6-440f-9bd4-01be1c504bff
+* Customer2
+  - Account1 uuid: 7e6b5aa1-495e-4a89-ac88-22638ad03570
+  - Account2 uuid: a605989f-a897-43b7-81aa-93e124d6d99b
+
+
+Exercise instructions
+---------------------
 Welcome to Holvi transactions API exercise!
 
 In this exercise, you'll implement an API for recording transactions to

@@ -16,4 +16,4 @@ class TransactionList(mixins.ListModelMixin, viewsets.GenericViewSet):
     def get_queryset(self):
         pk = self.kwargs['pk']
         account = Account.objects.get(uuid=pk)
-        return account.transactions
+        return account.transactions.filter(active=True)

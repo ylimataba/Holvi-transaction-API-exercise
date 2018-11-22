@@ -66,10 +66,14 @@ add, change and list users, accounts and transactions.
 There are 4 accounts, two for each customer:
 * Customer1
   - Account1 uuid: **e2363ff3-0642-4061-a4b3-9b90c4ab8df0**
+    - Has 1 active transaction
   - Account2 uuid: **4487ce5c-e4f6-440f-9bd4-01be1c504bff**
+    - Has 1 active transaction
 * Customer2
   - Account1 uuid: **7e6b5aa1-495e-4a89-ac88-22638ad03570**
+    - Has 1 inactive transaction
   - Account2 uuid: **a605989f-a897-43b7-81aa-93e124d6d99b**
+    - Has 1 active transaction
 
 
 Exercise instructions
